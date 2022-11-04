@@ -8,6 +8,10 @@
 @import url(prueba.css);
 @import url(equipo.css);
 @import url(call-to-acction.css);
+@import url(preg-frecuentes.css);
+@import url(registro.css);
+@import url(inciar.css);
+@import url(contacto.css);
 *
 {
 	margin:0;
