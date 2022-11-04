@@ -64,3 +64,28 @@
 	background-image: url(https://www.diariodecuyo.com.ar/__export/1646227812268/sites/diariodecuyo/img/2022/03/02/genero_crop1646227811435.jpg);
 	background-size: cover;
 }
+
+.ayuda
+{
+	display: inline-block;
+	border-radius: 50%;
+	height: auto;
+	padding: 20px 25px;
+	background: rgba(60,60,60,0.8);
+	position: fixed;
+	top: 460px;
+	left: 93%;
+	z-index: 10;
+}
+
+.icon-ayuda
+{
+	font-size: 25px;
+	color: #fff;
+}
+
+.icon-ayuda:hover
+{
+	color: #000;
+	opacity: 70%;
+}
