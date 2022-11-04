@@ -82,3 +82,17 @@
 	}
 }
 
+@media screen and (max-width: 500px)
+{
+	.ayuda
+	{
+		left: 82%;
+		padding: 15px 18px;
+	}
+
+	.icon-ayuda 
+	{
+		font-size: 20px;
+	}
+}
+
