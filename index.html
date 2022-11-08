@@ -6,17 +6,19 @@
 	 <meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <link rel="stylesheet" type="text/css" href="css/styles.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./assets/css/chat.css">
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <link rel="stylesheet" href="./assets/css/typing.css">
 	 <link rel="icon" href="img/icon.jpeg">
 	 <link href="https://fonts.googleapis.com/css2?family=Aladin&familyChewy&family=Gochi+Hand&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Fuzzy+Bubbles:wght@700&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 	 <script src="https://kit.fontawesome.com/d6000efb6a.js" crossorigin="anonymous"></script>
  
 </head>
 <body>
-	<div class="ayuda">
-					<a href="" class="fa-sharp fa-solid fa-question icon-ayuda"></a>
-				</div>
+
 	<header id="cabecera">
 		<div class="contenedor">
 			<div class="contenedor-logo">
@@ -329,6 +331,54 @@
 				</div>
 			</div>
 	</footer>
+	<div class="container ayuda">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+						<img src="./img/BotIcon.png" class="image_Bot"alt="imageBot">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Hola soy Busti!</h4>
+                        <p class="chatbox__description--header">Estoy aqui para ayudarte, escríbeme tus dudas.</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div>
+                        <div class="messages__item messages__item--visitor">
+                            Hola, en que puedo ayudarte?
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            Buenas tardes, quisiera saber como puedo registrarme en el aplicativo.
+                        </div>
+                        <div class="messages__item messages__item--visitor">
+                            Si claro, debes dirigirte al inicio de la pagina web y hay dos opciones para registrarse, como emprendedor o benefactor.
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            Gracias por la ayuda. 
+                        </div>
+                        <div class="messages__item messages__item--typing">
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatbox__footer">
+					<img src="./img/icons/emojis.svg" alt="">
+                    <img src="./img/icons/microphone.svg" alt="">
+                    <input type="text" placeholder="Escribe un mensaje...">
+                    <p class="chatbox__send--footer">Enviar</p>
+                    <img src="./img/icons/clip.svg" alt="">
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button>button</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/Chat.js"></script>
+    <script src="./assets/js/app.js"></script>
 
 </body>
 </html>
