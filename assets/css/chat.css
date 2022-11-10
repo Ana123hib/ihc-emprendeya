@@ -17,6 +17,7 @@
     height: 350px;
     z-index: -123456;
     opacity: 0;
+    display: none;
     transition: all .5s ease-in-out;
 }
 
